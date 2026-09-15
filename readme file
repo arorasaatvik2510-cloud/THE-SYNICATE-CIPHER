@@ -1,0 +1,25 @@
+# The Syndicate Cipher
+
+**A web-based interactive narrative thriller.**
+**Studio:** Obsidian Realm Games
+**Director:** Saatvik Arora
+
+## About the Project
+*The Syndicate Cipher* is a 10-episode interactive narrative thriller developed for a computer science portfolio project. The game is built entirely on web technologies (HTML, CSS, JavaScript) and utilizes a modular architecture. 
+
+The core logic handles complex narrative branching and puzzle states across multiple global locations. The codebase separates the frontend UI managers, the core game loop, and the backend authentication modules into distinct JavaScript classes, simulating secure data transfers and cloud-sync states.
+
+## Play the Game
+cd "/Users/amitarora/THE SYNICATE CIPHER"
+mv main.html index.html**[Click Here to Play The Syndicate Cipher](https://github.com/arorasaatvik2510-cloud/the-syndicate-cypher);
+
+## Local Setup (For Developers)
+1. Clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Install the "Live Server" extension.
+4. Right-click `index.html` and select "Open with Live Server".
+
+## Tech Stack
+* Vanilla JavaScript (ES6 Modules)
+* HTML5 / CSS3
+* Simulated Firebase Backend

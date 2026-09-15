@@ -1,0 +1,20 @@
+// ui/EndCredits.js
+      button:hover {
+        background: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="terminal">
+      <h2>System Terminal Ready</h2>
+      <button id="start-btn">Initiate Final Sequence</button>
+      <div id="output"></div>
+    </div>
+
+    <!-- The type="module" allows your JavaScript files to talk to each other -->
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
+`;
+
+export default html;
