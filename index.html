@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Syndicate Cipher</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        #terminal {
+            border: 1px solid #00ff00;
+            padding: 40px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 0 15px #00ff00;
+        }
+        button {
+            padding: 10px 20px;
+            background: #00ff00;
+            color: black;
+            font-weight: bold;
+            font-family: inherit;
+            cursor: pointer;
+            border: none;
+            margin-top: 20px;
+        }
+        button:hover { background: #ffffff; }
+    </style>
+</head>
+<body>
+    <div id="terminal">
+        <h2>System Terminal Ready</h2>
+        <button id="start-btn">Initiate Final Sequence</button>
+        <div id="output"></div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
