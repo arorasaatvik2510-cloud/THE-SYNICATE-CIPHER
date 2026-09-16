@@ -1,10 +1,49 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Syndicate Cipher</title>
+  <style>
+    body {
+      background: #080b16;
+      color: #00ffcc;
+      font-family: monospace;
+      text-align: center;
+      padding-top: 20vh;
+    }
+
+    #terminal {
+      margin: auto;
+      padding: 40px;
+      max-width: 600px;
+      border: 1px solid #00ffcc;
+      box-shadow: 0 0 20px #00ffcc;
+    }
+
+    button {
+      background: linear-gradient(135deg, #00ffcc, #0077ff);
+      color: #061018;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-family: inherit;
+      font-style: italic;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    #output {
+      margin-top: 24px;
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body>
   <div id="terminal">
