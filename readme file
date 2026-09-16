@@ -18,6 +18,10 @@ mv main.html index.html**[Click Here to Play The Syndicate Cipher](https://githu
 2. Open the project folder in Visual Studio Code.
 3. Install the "Live Server" extension.
 4. Right-click `index.html` and select "Open with Live Server".
+[Click Here to Play The Syndicate Cipher](https://arorasaatvik2510-cloud.github.io/the-syndicate-cypher/)[Click Here to Play The Syndicate Cipher];
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git config --global --list;
 
 ## Tech Stack
 * Vanilla JavaScript (ES6 Modules)
